@@ -1,0 +1,132 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/maven-4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bryanjswift</groupId>
+	<artifactId>twitter-favorites</artifactId>
+	<packaging>war</packaging>
+	<version>0.1-SNAPSHOT</version>
+	<name>Twitter Favorites</name>
+	<url>http://bryanjswift.com</url>
+	<description>Application to take favorited tweets and save the URLs in them to another service</description>
+<!-- Dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	<!-- App Engine -->
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>appengine-tools</artifactId>
+			<version>1.2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>appengine-local-runtime-shared</artifactId>
+			<version>1.2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>appengine-sdk-1.2.0-api</artifactId>
+			<version>1.2.0</version>
+			<scope>compile</scope>
+		</dependency>
+	<!-- Geronimo -->
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-el_1.0_spec</artifactId>
+			<version>1.0.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-jsp_2.1_spec</artifactId>
+			<version>1.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-servlet_2.5_spec</artifactId>
+			<version>1.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-jpa_3.0_spec</artifactId>
+			<version>1.1.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-jta_1.1_spec</artifactId>
+			<version>1.1.1</version>
+			<scope>compile</scope>
+		</dependency>
+	<!-- Data Nucleus -->
+		<dependency>
+			<groupId>org.datanucleus</groupId>
+			<artifactId>datanucleus-appengine</artifactId>
+			<version>1.0.0.final</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+<!-- Build Plugins -->
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.scala-tools</groupId>
+				<artifactId>maven-scala-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+							<goal>testCompile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+<!-- Plugin Repositories -->
+	<pluginRepositories>
+		<pluginRepository>
+			<id>scala</id>
+			<name>Scala Tools</name>
+			<url>http://scala-tools.org/repo-releases/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+<!-- Repositories -->
+	<repositories>
+		<repository>
+			<id>scala</id>
+			<name>Scala Tools</name>
+			<url>http://scala-tools.org/repo-releases/</url>
+			<releases>
+			<enabled>true</enabled>
+					</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+</project>
+
