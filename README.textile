@@ -27,3 +27,5 @@ In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first t
 h2. Scala jars
 
 The "Scala":s jars should be located by Maven in the declared repositories in the pom.xml.
+
+[s]http://www.scala-lang.org
