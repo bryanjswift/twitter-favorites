@@ -7,6 +7,10 @@
 	<name>Twitter Favorites</name>
 	<url>http://bryanjswift.com</url>
 	<description>Application to take favorited tweets and save the URLs in them to another service</description>
+<!-- Properties -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 <!-- Dependencies -->
 	<dependencies>
 	<!-- App Engine -->
