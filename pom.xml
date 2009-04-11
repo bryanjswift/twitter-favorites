@@ -12,68 +12,39 @@ http://maven.apache.org/maven-4_0_0.xsd">
 	<description>Application to take favorited tweets and save the URLs in them to another service</description>
 <!-- Dependencies -->
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
 	<!-- App Engine -->
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>appengine-tools</artifactId>
 			<version>1.2.0</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>appengine-local-runtime-shared</artifactId>
 			<version>1.2.0</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google</groupId>
-			<artifactId>appengine-sdk-1.2.0-api</artifactId>
+			<artifactId>appengine-api-1.0-sdk</artifactId>
 			<version>1.2.0</version>
-			<scope>compile</scope>
 		</dependency>
 	<!-- Geronimo -->
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-el_1.0_spec</artifactId>
-			<version>1.0.1</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-jsp_2.1_spec</artifactId>
-			<version>1.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-servlet_2.5_spec</artifactId>
 			<version>1.2</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-jpa_3.0_spec</artifactId>
-			<version>1.1.1</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-jta_1.1_spec</artifactId>
-			<version>1.1.1</version>
-			<scope>compile</scope>
 		</dependency>
 	<!-- Data Nucleus -->
 		<dependency>
 			<groupId>org.datanucleus</groupId>
 			<artifactId>datanucleus-appengine</artifactId>
 			<version>1.0.0.final</version>
-			<scope>compile</scope>
+		</dependency>
+	<!-- Scala -->
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.7.3</version>
 		</dependency>
 	</dependencies>
 <!-- Build Plugins -->
