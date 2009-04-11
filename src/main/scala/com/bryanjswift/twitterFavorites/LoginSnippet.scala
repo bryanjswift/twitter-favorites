@@ -7,13 +7,9 @@ object LoginSnippet {
         val user = userService.getCurrentUser
 
         if (user == null) {
-            <p>Hello! <a href={userService.createLoginURL
-                (request.getRequestURI)}>Sign in</a>
-                just for kicks.</p>
+            <p>Hello! <a href={userService.createLoginURL(request.getRequestURI)}>Sign in</a> just for kicks.</p>
         } else {
-            <p>Hello, {user.getNickname}! Now you can
-                <a href={userService.createLogoutURL(
-                request.getRequestURI)}>sign out</a> again.</p>
+            <p>Hello, {user.getNickname}! Now you can <a href={userService.createLogoutURL(request.getRequestURI)}>sign out</a> again.</p>
         }
     }
 }
