@@ -6,3 +6,24 @@ The goal of this application is to periodically parse the favorited tweets of a 
 
 [t]http://twitter.com
 [d]http://delicious.com
+
+h1. Building
+
+h2. AppEngine jars
+
+In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first the jars from the SDK need to be installed in the local repository. To do this first navigate to where the "Java AppEngine SDK":javasdk are located and then run the following four commands.
+
+[ae]http://code.google.com/appengine/docs/java/overview.html
+[m]http://maven.apache.org/
+[javasdk]http://code.google.com/appengine/downloads.html#Google_App_Engine_SDK_for_Java
+
+<pre><code>
+	mvn install:install-file -Dfile=lib/user/orm/datanucleus-appengine-1.0.0.final.jar -DgroupId=org.datanucleus -DartifactId=datanucleus-appengine -Dversion=1.0.0.final -Dpackaging=jar -DgeneratePom=true
+	mvn install:install-file -Dfile=lib/user/appengine-api-1.0-sdk-1.2.0.jar -DgroupId=com.google -DartifactId=appengine-api-1.0-sdk -Dversion=1.2.0 -Dpackaging=jar -DgeneratePom=true
+	mvn install:install-file -Dfile=lib/shared/appengine-local-runtime-shared.jar -DgroupId=com.google -DartifactId=appengine-local-runtime-shared -Dversion=1.2.0 -Dpackaging=jar -DgeneratePom=true
+	mvn install:install-file -Dfile=lib/appengine-tools-api.jar -DgroupId=com.google -DartifactId=appengine-tools -Dversion=1.2.0 -Dpackaging=jar -DgeneratePom=true
+</code></pre>
+
+h2. Scala jars
+
+The "Scala":s jars should be located by Maven in the declared repositories in the pom.xml.
