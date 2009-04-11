@@ -1,0 +1,8 @@
+h1. Twitter Favorites
+
+h2. Description
+
+The goal of this application is to periodically parse the favorited tweets of a "Twitter":t user and extract URLs from the messages. Once the URLs are extracted they will be sent to a bookmarking service like "Delicious":d and saved.
+
+[t]http://twitter.com
+[d]http://delicious.com
