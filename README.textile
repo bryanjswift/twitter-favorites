@@ -27,7 +27,7 @@ In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first t
 
 h2. Dispatch jar
 
-There is an additional dependency on "Databinder's Dispatch":dispatch library. This must be built from source the source at `git clone git://databinder.net/git/dispatch`.
+There is an additional dependency on "Databinder's Dispatch":dispatch library. This must be built from source the source at @git clone git://databinder.net/git/dispatch@.
 
 [dispatch]http://databinder.net/dispatch
 
