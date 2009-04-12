@@ -47,6 +47,11 @@
 			<artifactId>scala-library</artifactId>
 			<version>2.7.3</version>
 		</dependency>
+		<dependency>
+			<groupId>net.databinder</groupId>
+			<artifactId>dispatch</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
 	<!-- Specs -->
 		<dependency>
 			<groupId>org.specs</groupId>
