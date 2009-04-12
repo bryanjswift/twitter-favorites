@@ -47,6 +47,13 @@
 			<artifactId>scala-library</artifactId>
 			<version>2.7.3</version>
 		</dependency>
+	<!-- Specs -->
+		<dependency>
+			<groupId>org.specs</groupId>
+			<artifactId>specs</artifactId>
+			<version>1.4.3</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 <!-- Build Plugins -->
 	<build>
@@ -77,7 +84,7 @@
 		<pluginRepository>
 			<id>scala</id>
 			<name>Scala Tools</name>
-			<url>http://scala-tools.org/repo-releases/</url>
+			<url>http://scala-tools.org/repo-releases</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -91,7 +98,7 @@
 		<repository>
 			<id>scala</id>
 			<name>Scala Tools</name>
-			<url>http://scala-tools.org/repo-releases/</url>
+			<url>http://scala-tools.org/repo-releases</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
