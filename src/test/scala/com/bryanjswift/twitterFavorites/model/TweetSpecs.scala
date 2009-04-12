@@ -1,8 +1,8 @@
 package com.bryanjswift.twitterFavorites.model
 
-import org.specs._
-import org.specs.runner._
-import scala.xml._
+import org.specs.Specification
+import org.specs.runner.JUnit4
+import scala.xml.XML
 
 class tweetTest extends JUnit4(tweetTests)
 
