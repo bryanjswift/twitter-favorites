@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Apr 11 00:23:54 +0000 2009</created_at>
+  <id>1494113612</id>
+  <text>In case you missed it, Lift *does* run on the Google App Engine http://lift-example.appspot.com/index</text>
+  <source>&lt;a href=&quot;http://www.twhirl.org/&quot;&gt;twhirl&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>3930521</id>
+    <name>David Pollak</name>
+    <screen_name>dpp</screen_name>
+    <location>San Francisco</location>
+    <description>Lift developer, twin dad</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/107815140/DPP_Pict_normal.JPG</profile_image_url>
+    <url>http://blog.lostlake.org</url>
+    <protected>false</protected>
+    <followers_count>589</followers_count>
+    <profile_background_color>642D8B</profile_background_color>
+    <profile_text_color>3D1957</profile_text_color>
+    <profile_link_color>FF0000</profile_link_color>
+    <profile_sidebar_fill_color>7AC3EE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>65B0DA</profile_sidebar_border_color>
+    <friends_count>87</friends_count>
+    <created_at>Mon Apr 09 18:22:33 +0000 2007</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme10/bg.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1078</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Apr 10 12:30:58 +0000 2009</created_at>
+  <id>1489998983</id>
+  <text>The past few weeks have reminded me how damned pleasing it is to write more than 140 characters at a time. You know, really explore a subjec</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>12534</id>
+    <name>Beep.</name>
+    <screen_name>beep</screen_name>
+    <location>Cambridge, MA</location>
+    <description>Hi, Super Best Friend!</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/120076374/j-donne_normal.jpg</profile_image_url>
+    <url>http://unstoppablerobotninja.com/</url>
+    <protected>false</protected>
+    <followers_count>2493</followers_count>
+    <profile_background_color>121212</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>990000</profile_link_color>
+    <profile_sidebar_fill_color>7D7D7D</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>7D7D7D</profile_sidebar_border_color>
+    <friends_count>215</friends_count>
+    <created_at>Wed Nov 15 15:59:51 +0000 2006</created_at>
+    <favourites_count>4985</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2345570/lolcifer.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>4010</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Apr 08 22:24:42 +0000 2009</created_at>
+  <id>1479624728</id>
+  <text>"It was fairly trivial to use Scala with the new Java support in AppEngine." http://bit.ly/8MCZ4</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>18713</id>
+    <name>Alex Payne</name>
+    <screen_name>al3x</screen_name>
+    <location>San Francisco</location>
+    <description>Twitter's API Lead. Writer, critic, beverage enthusiast, programming language obsessive.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77218859/al3x_feb_2009_normal.png</profile_image_url>
+    <url>http://al3x.net/</url>
+    <protected>false</protected>
+    <followers_count>9984</followers_count>
+    <profile_background_color>e5e9eb</profile_background_color>
+    <profile_text_color>232323</profile_text_color>
+    <profile_link_color>336699</profile_link_color>
+    <profile_sidebar_fill_color>c3cbd0</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>333</profile_sidebar_border_color>
+    <friends_count>403</friends_count>
+    <created_at>Thu Nov 23 19:29:11 +0000 2006</created_at>
+    <favourites_count>1526</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>8288</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Apr 08 18:02:47 +0000 2009</created_at>
+  <id>1478076745</id>
+  <text>Today's Mail: &quot;I sell something of my husband's on ebay when he makes me mad. (He just thinks he misplaces them).</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>19299909</id>
+    <name>PostSecret</name>
+    <screen_name>postsecret</screen_name>
+    <location>Germantown, MD</location>
+    <description>More Secrets, Stories and Surprises from PostSecret.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/72374264/twitter_logo_normal.jpg</profile_image_url>
+    <url>http://www.postsecret.com</url>
+    <protected>false</protected>
+    <followers_count>61585</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>404040</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>141414</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>000000</profile_sidebar_border_color>
+    <friends_count>12</friends_count>
+    <created_at>Wed Jan 21 18:34:19 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/7159623/exhibit.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>143</statuses_count>
+    <notifications>false</notifications>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Apr 07 19:43:27 +0000 2009</created_at>
+  <id>1471583642</id>
+  <text>@atebits is freakin' killing me with these Bigbird hints. WANT http://bit.ly/ILS9I</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>11178592</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>atebits</in_reply_to_screen_name>
+  <user>
+    <id>637533</id>
+    <name>Coda</name>
+    <screen_name>coda</screen_name>
+    <location>Berkeley, CA</location>
+    <description>Oh, that little guy? I wouldn't worry about that little guy.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52169097/wicked0003_normal.jpg</profile_image_url>
+    <url>http://blog.codahale.com</url>
+    <protected>false</protected>
+    <followers_count>609</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>114</friends_count>
+    <created_at>Mon Jan 15 18:45:23 +0000 2007</created_at>
+    <favourites_count>58</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2878</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Apr 07 19:15:43 +0000 2009</created_at>
+  <id>1471419775</id>
+  <text>Can't stop watching people buy shoes: http://www.zappos.com/map/ (@ryanorr)</text>
+  <source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>30923</id>
+    <name>rands</name>
+    <screen_name>rands</screen_name>
+    <location>los gatos, ca</location>
+    <description>in repose</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/78687018/rands-better-05_normal.png</profile_image_url>
+    <url>http://www.randsinrepose.com</url>
+    <protected>false</protected>
+    <followers_count>7301</followers_count>
+    <profile_background_color>b64117</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>e04804</profile_link_color>
+    <profile_sidebar_fill_color>cccccc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>259</friends_count>
+    <created_at>Wed Nov 29 19:16:11 +0000 2006</created_at>
+    <favourites_count>13</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5308680/accent.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>4536</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Apr 07 19:06:54 +0000 2009</created_at>
+  <id>1471367657</id>
+  <text>Can Scala scale? http://canscalascale.com/ #drama #nsfw</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>18713</id>
+    <name>Alex Payne</name>
+    <screen_name>al3x</screen_name>
+    <location>San Francisco</location>
+    <description>Twitter's API Lead. Writer, critic, beverage enthusiast, programming language obsessive.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77218859/al3x_feb_2009_normal.png</profile_image_url>
+    <url>http://al3x.net/</url>
+    <protected>false</protected>
+    <followers_count>10066</followers_count>
+    <profile_background_color>e5e9eb</profile_background_color>
+    <profile_text_color>232323</profile_text_color>
+    <profile_link_color>336699</profile_link_color>
+    <profile_sidebar_fill_color>c3cbd0</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>333</profile_sidebar_border_color>
+    <friends_count>410</friends_count>
+    <created_at>Thu Nov 23 19:29:11 +0000 2006</created_at>
+    <favourites_count>1540</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>8324</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Apr 07 17:36:54 +0000 2009</created_at>
+  <id>1470855033</id>
+  <text>Frameworks are the new Dreamweaver.</text>
+  <source>&lt;a href=&quot;http://www.hahlo.com/&quot;&gt;Hahlo&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>61133</id>
+    <name>Jeffrey Zeldman</name>
+    <screen_name>zeldman</screen_name>
+    <location>NYC, land of perpetual sunshin</location>
+    <description>The present day publisher refuses to die.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68890205/n548362954_1051320_5065_normal.jpg</profile_image_url>
+    <url>http://www.zeldman.com/</url>
+    <protected>false</protected>
+    <followers_count>19124</followers_count>
+    <profile_background_color>FF6600</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>972200</profile_link_color>
+    <profile_sidebar_fill_color>FF6600</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CD3300</profile_sidebar_border_color>
+    <friends_count>349</friends_count>
+    <created_at>Tue Dec 12 17:11:41 +0000 2006</created_at>
+    <favourites_count>2639</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/1422692/chancegarden1280.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>4369</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun Apr 05 05:49:42 +0000 2009</created_at>
+  <id>1455731294</id>
+  <text>Do stupid things faster with more energy: http://twitpic.com/2udhc (@gnat)</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>30923</id>
+    <name>rands</name>
+    <screen_name>rands</screen_name>
+    <location>los gatos, ca</location>
+    <description>in repose</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/78687018/rands-better-05_normal.png</profile_image_url>
+    <url>http://www.randsinrepose.com</url>
+    <protected>false</protected>
+    <followers_count>7336</followers_count>
+    <profile_background_color>b64117</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>e04804</profile_link_color>
+    <profile_sidebar_fill_color>cccccc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>259</friends_count>
+    <created_at>Wed Nov 29 19:16:11 +0000 2006</created_at>
+    <favourites_count>13</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5308680/accent.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>4542</statuses_count>
+    <notifications>false</notifications>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun Apr 05 03:19:17 +0000 2009</created_at>
+  <id>1455152623</id>
+  <text>Her: What's Naked Day? Me: When everyone strips CSS from their sites for a day. Her: Ok, good, I was afraid to click on naked.dustindiaz.com</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>949521</id>
+    <name>Doug Bowman</name>
+    <screen_name>stop</screen_name>
+    <location>Menlo Park, CA</location>
+    <description>designer, thinker, Creative Director at Twitter</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/63191898/doug-profile_normal.jpg</profile_image_url>
+    <url>http://stopdesign.com</url>
+    <protected>false</protected>
+    <followers_count>5348</followers_count>
+    <profile_background_color>5c8dcf</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>3366cc</profile_link_color>
+    <profile_sidebar_fill_color>c9e0f5</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>e2edf8</profile_sidebar_border_color>
+    <friends_count>97</friends_count>
+    <created_at>Sun Mar 11 19:50:16 +0000 2007</created_at>
+    <favourites_count>9</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5122003/nz-px.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>418</statuses_count>
+    <notifications>false</notifications>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun Apr 05 02:23:30 +0000 2009</created_at>
+  <id>1454897432</id>
+  <text>tumpy, adj: tired and grumpy. A nice way of an @beep telling a Lizzy that it might be time to go to bed.</text>
+  <source>&lt;a href=&quot;http://www.atebits.com/&quot;&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>14935037</id>
+    <name>Lizzy</name>
+    <screen_name>drinkerthinker</screen_name>
+    <location>Cambridge, MA</location>
+    <description>Got a 22-toed cat and a robot fiance.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/65804739/totoro_normal.png</profile_image_url>
+    <url>http://drinkerthinker.com</url>
+    <protected>false</protected>
+    <followers_count>242</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>037D03</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>89</friends_count>
+    <created_at>Wed May 28 16:17:50 +0000 2008</created_at>
+    <favourites_count>788</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2656787/argyle.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>2855</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Thu Apr 02 00:38:54 +0000 2009</created_at>
+  <id>1435249026</id>
+  <text>The Sham-Wow guy has been arrested for beating up a hooker.
+TOO.....    MANY.....   JOKES!!!!!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>19949007</id>
+    <name>David T. Jones</name>
+    <screen_name>adlandjones</screen_name>
+    <location>Chicago</location>
+    <description>Adweek cartoonist. I take not taking advertising seriously very seriously</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/93444822/Twitter_icon_normal.jpg</profile_image_url>
+    <url>http://www.adweek.com/adland</url>
+    <protected>false</protected>
+    <followers_count>59</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>67</friends_count>
+    <created_at>Tue Feb 03 02:26:41 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6918397/Picture_3.png</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>43</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Apr 01 21:33:11 +0000 2009</created_at>
+  <id>1434246497</id>
+  <text>Regarding your April Fool's Joke: In the brief period before I "get it," I think you're stupid. That impression doesn't wear off right away.</text>
+  <source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>637533</id>
+    <name>Coda</name>
+    <screen_name>coda</screen_name>
+    <location>Berkeley, CA</location>
+    <description>Oh, that little guy? I wouldn't worry about that little guy.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52169097/wicked0003_normal.jpg</profile_image_url>
+    <url>http://blog.codahale.com</url>
+    <protected>false</protected>
+    <followers_count>605</followers_count>
+  </user>
+</status>
+<status>
+  <created_at>Wed Apr 01 18:53:12 +0000 2009</created_at>
+  <id>1433254341</id>
+  <text>I just hit j in Safari and was confused when the page didn't scroll.  I think my conversion to vim is complete.</text>
+  <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>14957975</id>
+    <name>Joseph Jaramillo</name>
+    <screen_name>josephjaramillo</screen_name>
+    <location>Phoenix, AZ</location>
+    <description>I make web apps.  The opinions expressed here are my own, so don't take it personally when I piss you off.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117540144/2000455272489756911_rs_normal.jpg</profile_image_url>
+    <url>http://srsly.me/</url>
+    <protected>false</protected>
+    <followers_count>328</followers_count>
+  </user>
+</status>
+<status>
+  <created_at>Wed Apr 01 18:48:38 +0000 2009</created_at>
+  <id>1433227047</id>
+  <text>Tech conference expo halls: the awkward convergence of the clinically shy and the professionally beautiful.</text>
+  <source>&lt;a href="http://twitfire.com"&gt;Twitfire&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>18713</id>
+    <name>Alex Payne</name>
+    <screen_name>al3x</screen_name>
+    <location>San Francisco</location>
+    <description>Twitter's API Lead. Writer, critic, beverage enthusiast, programming language obsessive.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77218859/al3x_feb_2009_normal.png</profile_image_url>
+    <url>http://al3x.net/</url>
+    <protected>false</protected>
+    <followers_count>9555</followers_count>
+  </user>
+</status>
+<status>
+  <created_at>Wed Mar 25 20:43:49 +0000 2009</created_at>
+  <id>1390226088</id>
+  <text>Spotted on a button on a bag at the bakery: &quot;I read banned books.&quot;</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>4833</id>
+    <name>Dan Cederholm</name>
+    <screen_name>simplebits</screen_name>
+    <location>Salem, MA</location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/65998690/cederholm-blue_normal.jpg</profile_image_url>
+    <url>http://simplebits.com</url>
+    <protected>false</protected>
+    <followers_count>13856</followers_count>
+  </user>
+</status>
+<status>
+  <created_at>Wed Mar 25 17:38:24 +0000 2009</created_at>
+  <id>1389219946</id>
+  <text>A friend once insisted to me that the plural of &#8220;moron&#8221; is &#8220;focus group.&#8221;</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>12534</id>
+    <name>Beep.</name>
+    <screen_name>beep</screen_name>
+    <location>Cambridge, MA</location>
+    <description>Hi, Super Best Friend!</description>
+    <profile_image_url>https://s3.amazonaws.com/twitter_production/profile_images/115575951/j-donne-pro_normal.gif</profile_image_url>
+    <url>http://unstoppablerobotninja.com/</url>
+    <protected>false</protected>
+    <followers_count>2421</followers_count>
+  </user>
+</status>
+<status>
+  <created_at>Wed Mar 25 13:22:05 +0000 2009</created_at>
+  <id>1387830925</id>
+  <text>Spec = asking the world to have sex with you and promising dinner date to one lucky winner.</text>
+  <source>&lt;a href=&quot;http://www.atebits.com/&quot;&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>61133</id>
+    <name>Jeffrey Zeldman</name>
+    <screen_name>zeldman</screen_name>
+    <location>NYC, land of perpetual sunshin</location>
+    <description>The present day publisher refuses to die.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68890205/n548362954_1051320_5065_normal.jpg</profile_image_url>
+    <url>http://www.zeldman.com/</url>
+    <protected>false</protected>
+    <followers_count>19306</followers_count>
+    <profile_background_color>FF6600</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>972200</profile_link_color>
+    <profile_sidebar_fill_color>FF6600</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CD3300</profile_sidebar_border_color>
+    <friends_count>350</friends_count>
+    <created_at>Tue Dec 12 17:11:41 +0000 2006</created_at>
+    <favourites_count>2658</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/1422692/chancegarden1280.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>4383</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Mar 24 20:21:44 +0000 2009</created_at>
+  <id>1383790120</id>
+  <text>Best way to fuck up a developer's concentration: walk up and ask a question that's guaranteed to be unrelated to what he's working on.</text>
+  <source>&lt;a href=&quot;http://www.tweetdeck.com/&quot;&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>14957975</id>
+    <name>Joseph Jaramillo</name>
+    <screen_name>josephjaramillo</screen_name>
+    <location>Phoenix, AZ</location>
+    <description>I make web apps.  The opinions expressed here are my own, so don't take it personally when I piss you off.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/119523655/joseph-jaramillo-twitter_normal.png</profile_image_url>
+    <url>http://srsly.me/</url>
+    <protected>false</protected>
+    <followers_count>355</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>441</friends_count>
+    <created_at>Fri May 30 21:04:04 +0000 2008</created_at>
+    <favourites_count>91</favourites_count>
+    <utc_offset>-25200</utc_offset>
+    <time_zone>Arizona</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5040336/background.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3332</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Mon Mar 23 20:01:39 +0000 2009</created_at>
+  <id>1377493348</id>
+  <text>@simplebits In your case, it does seem to have been the opacity of hope.</text>
+  <source>&lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>4833</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>simplebits</in_reply_to_screen_name>
+  <user>
+    <id>646533</id>
+    <name>Eric A. Meyer</name>
+    <screen_name>meyerweb</screen_name>
+    <location>meatspace</location>
+    <description>Web standards | (X)HTML | CSS | microformats | community | writing | speaking | signing man.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/19322632/eric-mystery_normal.jpg</profile_image_url>
+    <url>http://meyerweb.com/</url>
+    <protected>false</protected>
+    <followers_count>11775</followers_count>
+    <profile_background_color>9BBEDC</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>3232CD</profile_link_color>
+    <profile_sidebar_fill_color>DADADA</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>AAAAAA</profile_sidebar_border_color>
+    <friends_count>157</friends_count>
+    <created_at>Tue Jan 16 15:05:16 +0000 2007</created_at>
+    <favourites_count>48</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2175</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+</statuses>
