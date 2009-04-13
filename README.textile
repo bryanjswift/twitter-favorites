@@ -16,7 +16,7 @@ BDD Specs are written with the help of the "specs library":specs available on Go
 [specs]http://code.google.com/p/specs/
 [junit]http://www.junit.org
 
-In order to run the specs _as specs_ first execute `mvn package` which will build the war file and a directory with the war contents. Once the package is built run a command like
+In order to run the specs _as specs_ first execute `mvn package` which will build the war file and a directory with the war contents. Once the package is built run a command similar to:
 
 <pre><code>
 	scala -cp target/twitter-favorites-{version}/WEB-INF/lib/*:target/classes/:target/test-classes/:$M2_REPOSITORY/org/specs/specs/1.4.3/specs-1.4.3.jar:$M2_REPOSITORY/net/lag/configgy/1.2.1a/configgy-1.2.1a.jar {SpecificationObject}
@@ -25,7 +25,12 @@ In order to run the specs _as specs_ first execute `mvn package` which will buil
 
 In the above command {version} is replaced by the current version of the project as defined by the pom.xml and not by the appengine-web.xml, {SpecificationObject} is the full path of any object which extends org.specs.Specification, and $M2_REPOSITORY is an environment variable set to the root of the local Maven repository. On OSX $M2_REPOSITORY will probably be @~/.m2/repository@ but the tilde must be replaced with @/Users/username@.
 
-With the above guidelines a full command would look like, @scala -cp target/twitter-favorites-0.1-SNAPSHOT/WEB-INF/lib/*:target/classes/:target/test-classes/:$M2_REPOSITORY/org/specs/specs/1.4.3/specs-1.4.3.jar:$M2_REPOSITORY/net/lag/configgy/1.2.1a/configgy-1.2.1a.jar com.bryanjswift.twitterFavorites.TwitterUserSpecs@
+With the above guidelines a full command may look like:
+
+<pre><code>
+	scala -cp target/twitter-favorites-0.1-SNAPSHOT/WEB-INF/lib/*:target/classes/:target/test-classes/:$M2_REPOSITORY/org/specs/specs/1.4.3/specs-1.4.3.jar:$M2_REPOSITORY/net/lag/configgy/1.2.1a/configgy-1.2.1a.jar com.bryanjswift.twitterFavorites.TwitterUserSpecs
+	
+</code></pre>
 
 h1. Building
 
