@@ -38,7 +38,7 @@ Dispatch uses "simple-build-tool":sbt to build and package.
 Once the dispatch jar is built install it and it's configgy dependency into your local Maven repository with the following commands assuming you are in the dispatch root directory
 
 <pre><code>
-	mvn install:install-file -Dfile=target/dispatch-0.1-SNAPSHOT.jar -DgroupId=net.databinder -DartifactId=dispatch -Dversion=0.1-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
+	mvn install:install-file -Dfile=lib_managed/default/configgy-1.2.1a.jar -DgroupId=net.lag -DartifactId=configgy -Dversion=1.2.1a -Dpackaging=jar -DgeneratePom=true
 	mvn install:install-file -Dfile=target/dispatch-0.1-SNAPSHOT.jar -DgroupId=net.databinder -DartifactId=dispatch -Dversion=0.1-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 
 </code></pre>
