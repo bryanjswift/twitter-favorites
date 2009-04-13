@@ -7,6 +7,15 @@ The goal of this application is to periodically parse the favorited tweets of a 
 [t]http://twitter.com
 [d]http://delicious.com
 
+h1. Testing
+
+h2. Specs
+
+BDD Specs are written with the help of the "specs library":specs available on Google Code. The specs are executed as "JUnit":junit tests during Maven's test phase. This means the Maven build outputs information about tests run, passed and failed rather than information about what how the specs are defined. To see the specs executed as JUnit tests execute the `mvn clean test` command from the command prompt.
+
+[specs]http://code.google.com/p/specs/
+[junit]http://www.junit.org
+
 h1. Building
 
 h2. AppEngine jars
@@ -45,6 +54,6 @@ Once the dispatch jar is built install it and it's configgy dependency into your
 
 h2. Scala jars
 
-The "Scala":s jars should be located by Maven in the declared repositories in the pom.xml.
+The "Scala":s jars, including the specs library, should be located by Maven in the declared repositories in the pom.xml.
 
 [s]http://www.scala-lang.org
