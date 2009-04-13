@@ -1,15 +1,13 @@
 h1. Twitter Favorites
 
-h2. Description
-
 The goal of this application is to periodically parse the favorited tweets of a "Twitter":t user and extract URLs from the messages. Once the URLs are extracted they will be sent to a bookmarking service like "Delicious":d and saved.
 
 [t]http://twitter.com
 [d]http://delicious.com
 
-h1. Testing
+h2. Testing
 
-h2. Specs
+h3. Specs
 
 BDD Specs are written with the help of the "specs library":specs available on Google Code. The specs are executed as "JUnit":junit tests during Maven's test phase. This means the Maven build outputs information about tests run, passed and failed rather than information about what how the specs are defined. To see the specs executed as JUnit tests execute the `mvn clean test` command from the command prompt.
 
@@ -32,9 +30,9 @@ With the above guidelines a full command may look like:
 	
 </code></pre>
 
-h1. Building
+h2. Building
 
-h2. AppEngine jars
+h3. AppEngine jars
 
 In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first the jars from the SDK need to be installed in the local repository. To do this first navigate to where the "Java AppEngine SDK":javasdk are located and then run the following four commands.
 
@@ -50,7 +48,7 @@ In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first t
 	
 </code></pre>
 
-h2. Dispatch jar
+h3. Dispatch jar
 
 There is an additional dependency on "Databinder's Dispatch":dispatch library. This must be built from source the source at @git clone git://databinder.net/git/dispatch@.
 
@@ -68,7 +66,7 @@ Once the dispatch jar is built install it and it's configgy dependency into your
 
 </code></pre>
 
-h2. Scala jars
+h3. Scala jars
 
 The "Scala":s jars, including the specs library, should be located by Maven in the declared repositories in the pom.xml.
 
