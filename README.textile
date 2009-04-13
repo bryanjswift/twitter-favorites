@@ -25,23 +25,6 @@ In order to build an "Java AppEngine":ae project with "Maven":m (2.0.10) first t
 	
 </code></pre>
 
-h2. Dispatch jar
-
-There is an additional dependency on "Databinder's Dispatch":dispatch library. This must be built from source the source at @git clone git://databinder.net/git/dispatch@.
-
-[dispatch]http://databinder.net/dispatch
-
-Dispatch uses "simple-build-tool":sbt to build and package.
-
-[sbt]http://code.google.com/p/simple-build-tool/
-
-Once the dispatch jar is built install it into your local Maven repository with
-
-<pre><code>
-	mvn install:install-file -Dfile=target/dispatch-0.1-SNAPSHOT.jar -DgroupId=net.databinder -DartifactId=dispatch -Dversion=0.1-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
-
-</code></pre>
-
 h2. Scala jars
 
 The "Scala":s jars should be located by Maven in the declared repositories in the pom.xml.
