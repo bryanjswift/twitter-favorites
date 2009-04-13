@@ -4,9 +4,9 @@ import org.specs.Specification
 import org.specs.runner.JUnit4
 import scala.xml.XML
 
-class tweetTest extends JUnit4(tweetTests)
+class TweetTest extends JUnit4(TweetSpecs)
 
-object tweetTests extends Specification {
+object TweetSpecs extends Specification {
 	def have = addToSusVerb("have")
 	"tweet" should have {
 		val favorites = XML.load(getClass.getResourceAsStream("/favorites.xml"))
