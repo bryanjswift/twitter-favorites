@@ -49,4 +49,9 @@ object TweetSpecs extends Specification {
 			urls.length == 2
 		}
 	}
+	"status with id less should be ordered lower" in {
+		val t1 = new Tweet(<status><id>123</id><text>just a test 1</text></status>)
+		val t2 = new Tweet(<status><id>456</id><text>just a test 2</text></status>)
+		t1 < t2
+	}
 }
