@@ -13,6 +13,9 @@ class Http(scheme:String, host:String, port:Int) {
 	class Request(req:HTTPRequest) {
 		def this(uri:String) = this(new HTTPRequest(
 			new URL(scheme, host, port, uri), HTTPMethod.GET, FetchOptions.Builder.disallowTruncate))
+		def ?(values:Map[String,Any]) {
+			Map[String,Any]()
+		}
 	}
 }
 
